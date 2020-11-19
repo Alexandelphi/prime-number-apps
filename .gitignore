@@ -1,0 +1,17 @@
+.gradle
+build/
+!prime-number-proxy-service/gradle/wrapper/gradle-wrapper.jar
+buildSrc/build
+out
+build
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/**
+
+### Logging ###
+*.log
+target
