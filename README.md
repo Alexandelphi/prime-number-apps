@@ -16,7 +16,9 @@ Easy start:
 1) `./build-all.sh` from prime-number-app folder.
 2) `docker-compose up` from prime-number-app folder
 
-#Prime Number Server   
+
+**Prime Number Server**   
+
 This application has been built for generation prime numbers.
 The main idea to create a right tool for efficient generation prime numbers and pass generated numbers to a client through gRPC.   
 
@@ -30,12 +32,14 @@ It means we can generate an array/list with needed prime numbers without any add
 we just go through a loop and check a number with the non-prime numbers cache, if it's a prime or non-prime number.  
 More details you can fine in `com.home.primenumber.server.util.PrimNumberUtil` class.
 
-#Prime Number Proxy Service
+**Prime Number Proxy Service**   
+
 This application has been built for connecting to gRPC server where prime number generating proceeds.
 The app is using Spring Boot where REST endpoint built `GET /prime/<number>`
 and gRPC client is using as a spring service.
 
-#My thought process
+**My thought process**   
+
 I had many thoughts/ideas in my head, how to do everything right and etc., Also, I decided to listen to my intuition mostly.   
 Let me share some thoughts:
 0) Almost immediately I realised what I have to build as I have enough experience with integrating different services between each other, I had a clear vision.
@@ -67,7 +71,8 @@ Also, added some error handling as it wasn't obvious what's going on if somethin
 10) I had a lot of thoughts about implementing direct streaming between server and client side, and how it might suit here,
 but I decided to use 'unary' calls with using blockingStub approach for now.
 
-#Summarizing
+**Summarizing**   
+
 Hm, I have mixed possitive feelings and a lot of thoughts.   
 So, I would like to be quite short.    
 I really liked the task, especially binary protocols and how it works over http/2.
