@@ -1,5 +1,6 @@
 .gradle
-build/
+prime-number-proxy-service/build/
+prime-number-server/build/
 !prime-number-proxy-service/gradle/wrapper/gradle-wrapper.jar
 buildSrc/build
 out
