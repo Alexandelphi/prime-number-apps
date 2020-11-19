@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+grpc:
+  server:
+    host: ${GRPC_SERVER_HOST:localhost}
+    port: ${GRPC_SERVER_PORT:9090}
