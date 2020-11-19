@@ -2,7 +2,7 @@ version: '3'
 services:
   prime-number-server:
     build:
-      context: ../prime-number-app
+      context: ../prime-number-apps
       dockerfile: prime-number-server/infrastructure/docker/Dockerfile
       args:
         jarFile: ./prime-number-server/build/libs/*.jar
@@ -24,7 +24,7 @@ services:
 
   prime-number-proxy-service:
     build:
-      context: ../prime-number-app
+      context: ../prime-number-apps
       dockerfile: prime-number-proxy-service/infrastructure/docker/Dockerfile
       args:
         jarFile: ./prime-number-proxy-service/build/libs/*.jar
