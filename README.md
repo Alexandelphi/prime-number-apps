@@ -41,7 +41,7 @@ and gRPC client is using as a spring service.
 **My thought process**   
 
 I had many thoughts/ideas in my head, how to do everything right and etc., Also, I decided to listen to my intuition mostly.   
-Let me share some thoughts:
+Let me share some thoughts:   
 0) Almost immediately I realised what I have to build as I have enough experience with integrating different services between each other, I had a clear vision.
 But, it turned out, I was quite naive to build a full solution without real experience of technologies, especially Scala + SBT + Finagle + Thrift together.
 I was really enthusiastic, so I decided to try why not :-)   
