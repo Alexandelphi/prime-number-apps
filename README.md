@@ -79,3 +79,6 @@ I really liked the task, especially binary protocols and how it works over http/
 I had a lot of fun and it's always cool to have an opportunity to expand your boundaries through learning new things!
 Hope my solution is not gonna be totally disappointing and everything above is gonna be read :-)   
 Thank you so much!!!   
+
+--
+Testing symlink!!!
